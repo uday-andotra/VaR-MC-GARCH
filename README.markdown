@@ -26,7 +26,7 @@ This repository provides implementations and analyses of Value at Risk (VaR) and
    - Statistical tests (Binomial and Kupiec) to evaluate VaR accuracy.
    - Volatility modeling and visualization using GARCH, EGARCH, and GJR-GARCH models compared to realized volatility.
 
-Output Files: "Historical Returns.csv" & "Kupiec Backtesting VAR.xlsx"
+Output Files: "Price Paths.png", "Historical Returns.csv" & "Kupiec Backtesting VAR.xlsx"
 
 ## Dependencies
 
