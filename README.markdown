@@ -1,6 +1,6 @@
 # VaR and CVaR Calculation using Monte Carlo Simulations
 
-This repository provides implementations and analyses of Value at Risk (VaR) and Conditional Value at Risk (CVaR) for a portfolio of stocks, specifically Apple (AAPL) and Google (GOOG), using Monte Carlo simulations and other statistical methods. It is designed for educational purposes, offering both theoretical insights and practical code to explore financial risk management techniques.
+This repository provides implementations and analyses of Value at Risk (VaR) and Conditional Value at Risk (CVaR) for a portfolio of stocks, specifically Apple (AAPL) and Google (GOOG), using Monte Carlo simulations and some statistical methods like GARCH to estimate volatility. It is designed for educational purposes, offering both theoretical insights and practical code to explore financial risk management techniques.
 
 ## Files in the Repository
 
@@ -25,6 +25,8 @@ This repository provides implementations and analyses of Value at Risk (VaR) and
    - Backtesting over a 252-day rolling window to assess model performance.
    - Statistical tests (Binomial and Kupiec) to evaluate VaR accuracy.
    - Volatility modeling and visualization using GARCH, EGARCH, and GJR-GARCH models compared to realized volatility.
+
+Output Files: "Historical Returns.csv" & "Kupiec Backtesting VAR.xlsx"
 
 ## Dependencies
 
@@ -108,8 +110,3 @@ It is suitable for students, researchers, or finance professionals interested in
 - **Portfolio Diversification**: Test diversified vs. undiversified portfolios to study risk reduction.
 - **Advanced Volatility Models**: Further explore EGARCH and GJR-GARCH for improved volatility estimates.
 - **Extended Data**: Use more recent or diverse datasets to validate findings across different market conditions.
-
-## Citations
-- VaR.pdf: Theoretical background on VaR methods and backtesting.
-- VaR_and_CVaR_Monte_Carlo_Simulation.ipynb: Monte Carlo simulation implementation.
-- VaR.ipynb: Comparison of VaR methods and statistical validation.
